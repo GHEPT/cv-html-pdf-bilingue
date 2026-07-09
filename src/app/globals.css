@@ -708,4 +708,9 @@ button {
     break-inside: avoid;
     page-break-inside: avoid;
   }
+
+  .cv-section-title {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
 }
