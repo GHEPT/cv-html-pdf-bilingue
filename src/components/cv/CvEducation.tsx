@@ -21,6 +21,19 @@ export function CvEducation({ title, items }: CvEducationProps) {
 
                             <p className="education-institution">
                                 {item.institution}
+
+                                {item.certificateUrl && item.certificateLabel && (
+                                    <>
+                                        {" · "}
+                                        <a
+                                            href={item.certificateUrl}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            {item.certificateLabel}
+                                        </a>
+                                    </>
+                                )}
                             </p>
                         </div>
 

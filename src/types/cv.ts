@@ -49,6 +49,8 @@ export interface Education {
     institution: string;
     course: string;
     period: string;
+    certificateUrl?: string;
+    certificateLabel?: string;
 }
 
 export interface ProfessionalDevelopment {

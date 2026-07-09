@@ -261,6 +261,9 @@ export const cvContent: CvContentByLocale = {
                     institution: "Blue EdTech",
                     course: "Desenvolvimento Web Back-End",
                     period: "2021 — 2022",
+                    certificateUrl:
+                        "https://drive.google.com/file/d/1mSMXEUPuyJcg5pYDWKJvbzuoNH50pScE/view",
+                    certificateLabel: "Ver certificado",
                 },
             ],
         },
@@ -270,11 +273,23 @@ export const cvContent: CvContentByLocale = {
 
             items: [
                 {
-                    institution: "NoCode Startup",
-                    title: "Formação Continuada em No-Code, Automações e IA",
+                    institution: "Adapta",
+                    title: "Formação Continuada em Inteligência Artificial",
                     period: "1 ano de participação",
                     description:
-                        "Desenvolvimento prático de soluções digitais utilizando ferramentas no-code, integrações, automações e inteligência artificial, incluindo aplicações web e integração de agentes de IA com WhatsApp.",
+                        "Aprofundamento contínuo em inteligência artificial e IA generativa, com aplicação prática de modelos, ferramentas e tecnologias emergentes.",
+                },
+                {
+                    institution: "Softblue",
+                    title: "Java e Desenvolvimento Backend",
+                    description:
+                        "Formação complementar em lógica de programação, Java Fundamentos, Java Avançado e desenvolvimento backend com Spring Boot.",
+                },
+                {
+                    institution: "DIO.me e NoCode Startup",
+                    title: "Formações Complementares em Tecnologia",
+                    description:
+                        "Bootcamps e formações voltados a desenvolvimento de software, soluções no-code, automações e inteligência artificial.",
                 },
             ],
         },
@@ -550,8 +565,11 @@ export const cvContent: CvContentByLocale = {
                 },
                 {
                     institution: "Blue EdTech",
-                    course: "Back-End Web Development",
+                    course: "Web Back-End Development",
                     period: "2021 — 2022",
+                    certificateUrl:
+                        "https://drive.google.com/file/d/1mSMXEUPuyJcg5pYDWKJvbzuoNH50pScE/view",
+                    certificateLabel: "View certificate",
                 },
             ],
         },
@@ -561,12 +579,23 @@ export const cvContent: CvContentByLocale = {
 
             items: [
                 {
-                    institution: "NoCode Startup",
-                    title:
-                        "Continuing Education in No-Code, Automation, and Artificial Intelligence",
+                    institution: "Adapta",
+                    title: "Continuing Education in Artificial Intelligence",
                     period: "1 year",
                     description:
-                        "Hands-on development of digital solutions using no-code tools, integrations, automation, and artificial intelligence, including web applications and AI agent integrations with WhatsApp.",
+                        "Continuous development in artificial intelligence and generative AI, with practical application of models, tools, and emerging technologies.",
+                },
+                {
+                    institution: "Softblue",
+                    title: "Java and Backend Development",
+                    description:
+                        "Complementary education in programming logic, Java Fundamentals, Advanced Java, and backend development with Spring Boot.",
+                },
+                {
+                    institution: "DIO.me and NoCode Startup",
+                    title: "Complementary Technology Education",
+                    description:
+                        "Bootcamps and continuing education focused on software development, no-code solutions, automation, and artificial intelligence.",
                 },
             ],
         },

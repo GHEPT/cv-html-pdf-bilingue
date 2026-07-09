@@ -507,6 +507,20 @@ button {
   line-height: 1.6;
 }
 
+.professional-development-item {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.professional-development-item:first-child {
+  padding-top: 0;
+}
+
+.professional-development-item:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
 .language-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
