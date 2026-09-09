@@ -256,19 +256,21 @@ export const cvContent: CvContentByLocale = {
 
         education: {
             title: "Formação",
-
             items: [
                 {
+                    category: "Pós-Graduação",
                     institution: "UNIPDS",
                     course: "Engenharia de Software em IA Aplicada",
                     period: "Ago/2026 — Ago/2027 · Em andamento",
                 },
                 {
+                    category: "Graduação",
                     institution: "UNIP",
                     course: "Bacharelado em Administração de Empresas",
                     period: "2008 — 2011",
                 },
                 {
+                    category: "Formação Técnica",
                     institution: "Blue EdTech",
                     course: "Desenvolvimento Web Back-End",
                     period: "2021 — 2022",
@@ -573,19 +575,21 @@ export const cvContent: CvContentByLocale = {
 
         education: {
             title: "Education",
-
             items: [
                 {
+                    category: "Graduate Program",
                     institution: "UNIPDS",
                     course: "Software Engineering in Applied AI",
                     period: "Aug 2026 — Aug 2027 · In progress",
                 },
                 {
+                    category: "Bachelor's Degree",
                     institution: "UNIP",
                     course: "Bachelor's Degree in Business Administration",
                     period: "2008 — 2011",
                 },
                 {
+                    category: "Technical Education",
                     institution: "Blue EdTech",
                     course: "Web Back-End Development",
                     period: "2021 — 2022",

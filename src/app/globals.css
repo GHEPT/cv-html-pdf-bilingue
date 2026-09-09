@@ -412,6 +412,11 @@ button {
   flex-direction: column;
 }
 
+.education-content {
+  flex: 1;
+  min-width: 0;
+}
+
 .education-item {
   display: flex;
   align-items: flex-start;
@@ -429,6 +434,18 @@ button {
 .education-item:last-child {
   padding-bottom: 0;
   border-bottom: 0;
+}
+
+.education-category {
+  margin: 0 0 6px;
+
+  color: var(--text-secondary);
+
+  font-size: 11px;
+  line-height: 1.4;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .education-course {

@@ -46,6 +46,7 @@ export interface Project {
 }
 
 export interface Education {
+    category?: string;
     institution: string;
     course: string;
     period: string;
