@@ -253,6 +253,11 @@ export const cvContent: CvContentByLocale = {
 
             items: [
                 {
+                    institution: "UNIPDS",
+                    course: "Engenharia de Software em IA Aplicada",
+                    period: "Ago/2026 — Ago/2027 · Em andamento",
+                },
+                {
                     institution: "UNIP",
                     course: "Bacharelado em Administração de Empresas",
                     period: "2008 — 2011",
@@ -558,6 +563,11 @@ export const cvContent: CvContentByLocale = {
             title: "Education",
 
             items: [
+                {
+                    institution: "UNIPDS",
+                    course: "Software Engineering in Applied AI",
+                    period: "Aug 2026 — Aug 2027 · In progress",
+                },
                 {
                     institution: "UNIP",
                     course: "Bachelor's Degree in Business Administration",
